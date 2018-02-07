@@ -4,12 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node app.js",
+    "test": "mocha"
   },
   "author": "zffp",
   "license": "ISC",
   "dependencies": {
     "koa": "^2.4.1",
     "koa-router": "^7.4.0"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.5"
   }
 }
